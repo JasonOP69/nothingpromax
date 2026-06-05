@@ -1,0 +1,116 @@
+html,
+body {
+  background: #050806 !important;
+}
+
+.site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: url("/a/a4fb2c.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.site-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.22);
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+.iY {
+  min-height: 100vh !important;
+  background: transparent !important;
+}
+
+.eC {
+  width: min(100%, 920px) !important;
+  margin: 0 auto !important;
+  gap: 22px !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+}
+
+.rx {
+  display: none !important;
+}
+
+.rv,
+.ru {
+  width: min(100%, 420px) !important;
+  max-width: 420px !important;
+  margin: 0 !important;
+}
+
+.ru {
+  width: min(100%, 330px) !important;
+  max-width: 330px !important;
+}
+
+.iO {
+  position: static !important;
+}
+
+.iU,
+.fG,
+.rm {
+  inset: auto !important;
+  top: auto !important;
+  right: auto !important;
+  left: auto !important;
+}
+
+.rk,
+.iA {
+  translate: none !important;
+}
+
+.C {
+  border-radius: 14px !important;
+}
+
+.C {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(255, 255, 255, 0.55) !important;
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.28) !important;
+}
+
+.rM {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+@media (min-width: 80rem) {
+  .rz {
+    display: grid !important;
+    grid-template-columns: minmax(340px, 420px) 330px !important;
+    gap: 24px !important;
+  }
+
+  .rw {
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 79.999rem) {
+  .iY {
+    padding: 28px 16px !important;
+  }
+
+  .eC {
+    flex-direction: column !important;
+  }
+
+  .rv,
+  .ru {
+    width: min(100%, 420px) !important;
+    max-width: 420px !important;
+  }
+}
