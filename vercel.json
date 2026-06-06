@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://bloxgifter.vercel.app/:path*",
-      "permanent": false
+      "source": "/:path((?!api/|css/|js/|webp/|a/|flags/|resources/|favicon.ico|favicon-96x96.png|site.webmanifest).*)",
+      "destination": "/index.html"
     }
   ]
 }
