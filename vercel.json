@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "routes": [
+  "redirects": [
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/:path*",
+      "destination": "https://bloxgifter.vercel.app/:path*",
+      "permanent": false
     }
   ]
 }
